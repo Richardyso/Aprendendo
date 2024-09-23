@@ -1,0 +1,31 @@
+Vermelho:
+RGB: (255, 0, 0)
+Código ANSI: '\033[38;2;255;0;0m'
+
+Verde:
+RGB: (0, 255, 0)
+Código ANSI: '\033[38;2;0;255;0m'
+
+Azul:
+RGB: (0, 0, 255)
+Código ANSI: '\033[38;2;0;0;255m'
+
+Amarelo:
+RGB: (255, 255, 0)
+Código ANSI: '\033[38;2;255;255;0m'
+
+Ciano:
+RGB: (0, 255, 255)
+Código ANSI: '\033[38;2;0;255;255m'
+Magenta:
+
+RGB: (255, 0, 255)
+Código ANSI: '\033[38;2;255;0;255m'
+Preto:
+
+RGB: (0, 0, 0)
+Código ANSI: '\033[38;2;0;0;0m'
+Branco:
+
+RGB: (255, 255, 255)
+Código ANSI: '\033[38;2;255;255;255m'

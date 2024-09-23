@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jogo de Adivinhação</title>
+    <script>
+        function iniciarJogo() {
+            var numeroSorteado = Math.floor(Math.random() * 10) + 1;
+            var tentativas = 3;
+
+            while (tentativas > 0) {
+                var palpite = parseInt(prompt("Adivinhe o número (entre 1 e 10)."));
+
+                if (palpite === numeroSorteado) {
+                    alert("Parabéns! Você acertou!");
+                    break;
+                } else {
+                    tentativas--;
+                    alert("Errou! Você tem mais " + tentativas + " tentativa(s) restante(s).");
+                }
+            }
+
+            if (tentativas === 0) {
+                alert("Suas tentativas acabaram. O número correto era " + numeroSorteado + ".");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Jogo de Adivinhação</h1>
+    <button onclick="iniciarJogo()">Iniciar</button>
+</body>
+
+</html>

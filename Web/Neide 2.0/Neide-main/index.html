@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neide Lanches</title>
+    <link rel="icon" type="image/x.icon" href="assets/img/icone.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <script src="assets/javascript/script.js"></script>
+</head>
+<body> <!--Tentei colocar Imagem e txto em containers separados mas o texto quero que fique no meio da imagem então o texto deve ser regulado a despeito da imagem-->
+    <div class="topo">
+        <img id="image" src="assets/img/ceu.png" alt="Ceu" width="500" height="200" >
+        <label id="texto">Neide Lanches</label>
+    </div>
+    <div class="botoes">
+        <button class="button" onclick="openTab(event, 'botao1')">
+            Home
+        </button>
+        <button class="button" onclick="openTab(event,'botao2')">
+            Cardápio
+        </button>
+        <button class="button" onclick="openTab(event,'botao3')">
+            Endereço
+        </button>
+        <button class="button" onclick="openTab(event,'botao4')">
+            Contato
+        </button>
+    <!--Conteúdo dos botões-->
+<!--BOTÃO 1-->
+        <div id="botao1" class="conteudobotao">
+            <p>Neide lanches é um espaço familiar para aqueles que desejam lanchar perto de casa com preços justos e ambiente familiar.
+                <br>
+                <br> 
+                Desde <strong>2005</strong> atendendo clientes localizado no <strong>Condomínio Ferrara</strong> próximo a Cachamorra no bairro Campo gande/RJ</p>
+        </div>
+<!--BOTÃO 2-->
+        <div id="botao2" class="conteudobotao">
+            <div class="secao1">
+                <h3>Salgados Grandes <br></h3>
+                    <div class="tipos">
+                        Frito.................. R$ 5,00<br>
+                            <div class="ingredientes">
+                                Coxinha<br>
+                                Quibe<br>
+                                Bolinho de Aipim <br>
+                                Risole de Camarão<br>
+                            </div>
+                    </div>
+                    <div class="tipos">
+                        Forno.................. R$ 6,00<br>
+                            <div class="ingredientes">
+                                Hamburguer de Forno<br>
+                                Joelho
+                            </div>
+                    </div>
+            </div>
+            
+            <div class="secao2">
+                <h3>Combo de Petiscos <br></h3>
+                    <div class="tipos">
+                        Simples................. R$ 15,00<br>
+                            <div class="ingredientes">
+                                Batata Frita<br>
+                                Calabresa<br>
+                                Cebola <br>
+                            </div>
+                    </div>
+                    <div class="tipos">        
+                        Completo................. R$ 20,00<br>
+                            <div class="ingredientes">
+                                Batata Frita<br>
+                                Calabresa<br>
+                                Nugget<br>
+                                Ovo de Codorna<br>
+                                Cebola <br>
+                            </div>
+                    </div>
+            </div>
+            
+            <div class="secao3">
+                <h3>Porção de Salgadinhos <br></h3>
+                    <div class="tipos">
+                        10 Unidades.................. R$ 5,00<br>
+                    </div>
+                        <div class="ingredientes">
+                            Diversos Sabores
+                        </div>
+                    <div class="tipos">
+                        100 Unidades................. R$ 45,00<br>
+                    </div>
+                        <div class="ingredientes">
+                            Diversos Sabores
+                        </div>
+            </div>
+            
+            <div class="secao4">
+                <h3>Cachorro Quente<br></h3>
+                    <div class="tipos">
+                        De Salsicha.................. R$ 6,50<br>
+                            <div class="ingredientes">
+                                Minho<br>
+                                Ervilha<br>
+                                Queijo Ralado <br>
+                                Batata Palha<br>
+                                Ketchup<br>
+                                Mostarda<br>
+                                Maionese <br>
+                                Ovo de Codorna<br>
+                            </div>
+                        <div class="tipos">
+                            De Linguiça.................. R$ 8,00
+                        </div>
+                            <div class="ingredientes">
+                                Minho<br>
+                                Ervilha<br>
+                                Queijo Ralado <br>
+                                Batata Palha<br>
+                                Ketchup<br>
+                                Mostarda<br>
+                                Maionese <br>
+                                Ovo de Codorna<br>
+                            </div>
+                    </div>
+            </div>
+            <div class="secao5">
+                <h3>Bebidas</h3>
+                    <div class="tipos">
+                        Refrigerantes
+                    </div>
+                        <div class="ingredientes">
+                            Coca Cola Retornável<br>
+                            Coca Cola Comum<br>
+                            Guaraná Antártica<br>
+                            Sukita<br>
+                            Convenção<br>
+                            Pepsi<br>
+                            Fanta<br>
+                            Energético<br>
+                        </div>
+                    <div class="tipos">
+                        Alcoolicos
+                    </div>
+                        <div class="ingredientes">
+                            Leonoff<br>
+                            Bananinha<br>
+                            Chopp de Vinho<br>
+                        </div>
+            </div>
+        </div>
+<!--BOTÃO 3-->
+        <div id="botao3" class="conteudobotao">
+            <p>Estrada Dos Caboclos 1285, Bloco 13 Apartamento 101, Campo Grande/RJ   <img id="image" src="assets/img/maps.png" alt="Ceu" width="15" height="15" ></p>
+            <a href="https://goo.gl/maps/sbTFoiUjfTeRj7WU8" target="_blank">
+                <button>Veja Nosso Endereço no Mapa!</button></a>
+        </div>
+<!--BOTÃO 4-->
+        <div id="botao4" class="conteudobotao">
+            <p>Para encomendas e outras dúvidas entre em contato com nosso número: 
+                <img id="image" src="assets/img/zap.png" alt="Ceu" width="15" height="15" >
+                <br>(21) 974681161 </p><br>
+
+            <a href="https://wa.me/5521974681161" target="_blank">
+                <button>Conversar no WhatsApp</button>
+        </div>
+    </div>
+
+</body>
+</html>

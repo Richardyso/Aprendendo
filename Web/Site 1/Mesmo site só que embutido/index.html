@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo com JavaScript</title>
+    <style>
+        .rowmundo {
+            color: brown;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const changeTextButton = document.getElementById('changeTextButton');
+            const displayText = document.getElementById('displayText');
+
+            changeTextButton.addEventListener('click', function () {
+                displayText.textContent = 'Texto alterado pelo JavaScript!';
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="row rowmundo">
+            Bem vindo ao meu site!
+        </div>
+    </header>
+
+    <button id="changeTextButton">Clique para alterar o texto</button>
+
+    <div id="displayText">
+        Texto inicial.
+    </div>
+</body>
+</html>
