@@ -1,0 +1,8 @@
+/* Estilizando o elemento h1 */
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+p{color: blue;}

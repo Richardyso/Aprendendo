@@ -1,0 +1,2 @@
+n = "dido"
+print("{:=^8}".format(n))

@@ -1,0 +1,19 @@
+Seleção por Tag (Elemento):
+p {color: blue;}
+
+Seleção por Classe:
+<div class="destaque">Este é um elemento de destaque.</div>
+.destaque {background-color: yellow;}
+
+
+Seleção por ID:
+<h1 id="titulo">Título Principal</h1>
+#titulo {font-size: 24px;}
+
+
+Seleção por Atributo:
+<input type="text" name="username" />
+input[type="text"] {border: 1px solid gray;}
+
+Seleção por Relacionamento:
+.container > .item {margin: 10px;}

@@ -1,0 +1,40 @@
+# Exemplo usando {:02d}
+num1 = 5
+num2 = 12
+print("Exemplo usando {:02d}:")
+print("Num1 formatado: {:02d}".format(num1))
+print("Num2 formatado: {:02d}".format(num2))
+# Saída: 
+# Exemplo usando {:02d}:
+# Num1 formatado: 05
+# Num2 formatado: 12
+
+# Exemplo usando .2f
+valor1 = 15.8746
+valor2 = 2.3
+print("Exemplo usando .2f:")
+print("Valor1 formatado: {:.2f}".format(valor1))
+print("Valor2 formatado: {:.2f}".format(valor2))
+# Saída:
+# Valor1 formatado: 15.87
+# Valor2 formatado: 2.30
+
+# Exemplo usando :.2f
+valor1 = 15.8746
+valor2 = 2.3
+print("Exemplo usando :.2f:")
+print("Valor1 formatado: {:.2f}".format(valor1))
+print("Valor2 formatado: {:.2f}".format(valor2))
+# Saída:
+# Valor1 formatado: 15.87
+# Valor2 formatado: 2.30
+
+# Exemplo usando {:.0f}
+valor1 = 15.8746
+valor2 = 2.3
+print("Valor1 formatado: {:.0f}".format(valor1))
+print("Valor2 formatado: {:.0f}".format(valor2))
+# Saída:
+# Exemplo usando {:.0f}:
+# Valor1 formatado: 16
+# Valor2 formatado: 2

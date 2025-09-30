@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+  }
+  
+  #image {
+    display: block; /* Torna a imagem um bloco para que as margens automáticas funcionem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 32px;
+    top: 50%; /* Move o texto para o meio verticalmente */
+    left: 50%; /* Move o texto para o meio horizontalmente */
+    transform: translate(-50%, -50%); /* Corrige o centro com base no tamanho do texto */
+  }
+  .tab-container {
+    max-width: 600px; /* Ajuste a largura do container conforme necessário */
+    margin: 0 auto;
+}
+
+.tablinks {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block; /* Torna os botões das abas inline */
+    margin-right: 10px; /* Espaçamento entre as abas */
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Adicione esta classe para destacar a aba ativa */
+.active-tab {
+    display: block;
+}
